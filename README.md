@@ -1,0 +1,2 @@
+# statics
+statics learning methods
