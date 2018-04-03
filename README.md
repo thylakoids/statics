@@ -16,4 +16,6 @@ statics learning methods
 ### CART
     to do:
 ## chapter6: maximum entropy
-### optimization algorithm
+**optimization algorithm**
+## chapter8: boosting
+**AdaBoost**
