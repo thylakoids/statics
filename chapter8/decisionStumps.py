@@ -34,9 +34,9 @@ def showData(x,y):
 
     for i in range(y.shape[0]):
 		if y[i]>0:
-			plt.plot(x[i,0],x[i,1],'.',color=(y[i,0]/ymax,0,0),markerSize=10)
+			plt.plot(x[i,0],x[i,1],'.',color=(y[i,0]/ymax,0,0),markerSize=10*y[i,0]/ymax)
 		if y[i]<=0:
-			plt.plot(x[i,0],x[i,1],'.',color=(0,0,y[i,0]/ymin),markerSize=10)
+			plt.plot(x[i,0],x[i,1],'.',color=(0,0,y[i,0]/ymin),markerSize=10*y[i,0]/ymin)
 
 
     # for col,i in zip(['red','blue'],[1,-1]):
@@ -198,8 +198,8 @@ class adaBoost:
 			showData(data,self.predict(data))
 if __name__ == "__main__":
 	for i in range(10):
-	    x=np.mat(np.random.randn(12,2))
-	    y=np.mat(np.sign(np.random.randn(12,1)))
+	    x=np.mat(np.random.randn(40,2))
+	    y=np.mat(np.sign(np.random.randn(40,1)))
 	    plt.subplot(121)
 	    showData(x,y)
 	    H=adaBoost(x,y)
