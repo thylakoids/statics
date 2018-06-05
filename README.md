@@ -1,4 +1,19 @@
 # statics
+<!-- MarkdownTOC -->
+
+1. [chapter2: perceptron](#chapter2-perceptron)
+1. [chapter3: Knn](#chapter3-knn)
+1. [chapter4: naive Bayes](#chapter4-naive-bayes)
+1. [chapter5: decision tree](#chapter5-decision-tree)
+    1. [ID3](#id3)
+    1. [C4.5](#c45)
+    1. [CART](#cart)
+1. [chapter6: maximum entropy](#chapter6-maximum-entropy)
+    1. [optimization algorithm](#optimization-algorithm)
+1. [chapter8: boosting](#chapter8-boosting)
+
+<!-- /MarkdownTOC -->
+
 statics learning methods
 ## chapter2: perceptron
     Animation
@@ -20,3 +35,6 @@ statics learning methods
 **optimization algorithm**
 ## chapter8: boosting
 **AdaBoost**
+
+
+
