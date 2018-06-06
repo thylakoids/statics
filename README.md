@@ -11,6 +11,7 @@
 1. [chapter6: maximum entropy](#chapter6-maximum-entropy)
     1. [optimization algorithm](#optimization-algorithm)
 1. [chapter8: boosting](#chapter8-boosting)
+1. [SVM](#svm)
 
 <!-- /MarkdownTOC -->
 
@@ -35,6 +36,7 @@ statics learning methods
 **optimization algorithm**
 ## chapter8: boosting
 **AdaBoost**
+## [SVM](http://cuijiahua.com/blog/2017/11/ml_8_svm_1.html)
 
 
 
