@@ -60,6 +60,7 @@ print d
 print b 
 print 1/(b[1:,0].T/d)
 
+import pdb; pdb.set_trace()  # breakpoint ae83f1d9 //
 
 plt.show()
 
