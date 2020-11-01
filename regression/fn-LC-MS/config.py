@@ -1,9 +1,15 @@
 class Config:
     pass
+
+
 class WindowsConfig(Config):
-    chromatographyDataPath = 'C:/Users/clay/Dropbox/statics/regression/data/chromatographydata_fn_2.xlsx'
+    chromatographyDataPath = 'C:/Users/clay/Dropbox/statistics/regression/data/chromatographydata_fn_2.xlsx'
+
+
 class MacConfig(Config):
-    chromatographyDataPath = '/Users/dracarys/Dropbox/statics/regression/data/chromatographydata_fn_2.xlsx'
+    chromatographyDataPath = '/Users/dracarys/Dropbox/statistics/regression/data/chromatographydata_fn_2.xlsx'
+    lingzhi_x_Path = '/Users/dracarys/Dropbox/statistics/regression/data/lingzhi_x.xlsx'
+    lingzhi_y_Path = '/Users/dracarys/Dropbox/statistics/regression/data/lingzhi_y.xlsx'
 
 
 config = {
@@ -13,6 +19,3 @@ config = {
 
 
 conf = config['Mac']
-
-
-
