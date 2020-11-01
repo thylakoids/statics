@@ -1,9 +1,12 @@
 # osx
 **/.DS_Store
 
-python
+# python
 **/__pycache__
+**/.ipynb_checkpoints
 *.py[cod]
+
+the-elements-of-statistical-learning
 
 *.pdf
 *.html
